@@ -22,7 +22,7 @@ import com.eder.coursespring.repositories.ProductRepository;
 import com.eder.coursespring.repositories.UserRepository;
 
 @Configuration
-@Profile({"test", "local"})
+@Profile("test")
 public class TestConfig implements CommandLineRunner {
 
 	@Autowired
